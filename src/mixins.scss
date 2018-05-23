@@ -1,0 +1,45 @@
+@mixin clearFix{
+  &:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin textCenter{
+   text-align: center;
+}
+
+@mixin mQ($args...){
+  @if length($args) == 1{
+    @media screen and (max-width: nth($args, 1)){
+      @content;
+    }
+  }
+  @if length($args) == 2{
+    @media screen and (max-width: nth($args, 1)) and (min-width: nth($args, 2)){
+      @content;
+    }
+  }
+}
+
+@mixin bgimage($name) {
+  $url:"/images/#{$name}.png";
+  background: url($url) no-repeat;
+}
+
+@mixin quoteimage($name) {
+  $url:"/images/#{$name}.png";
+  background: url($url) no-repeat center 20px;
+}
+
+@mixin footerimage($name) {
+  $url:"/images/#{$name}.png";
+  background: url($url) no-repeat left 5px;
+}
+
+
+@mixin burgerimage($name) {
+  $url:"/images/#{$name}.png";
+  background: url($url) no-repeat 98% center;
+}
