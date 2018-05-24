@@ -1,3 +1,8 @@
+if you're cloning for the first
+time, to ensure you download including laravel api use:
+
+git clone --recursive <project url>
+
 
 
 ## Installation ##
@@ -22,3 +27,6 @@ using the dev server.
 1. `npm run test`
 
 Check out how the sample test works, and then head to Jest and Enzyme documentation to learn how to use them.
+
+
+
