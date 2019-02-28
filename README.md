@@ -1,4 +1,4 @@
-# Contact List Management System React JS with Laravel
+# Contact Management System ReactJS with Laravel
 
 # Demo: https://safe-savannah-43634.herokuapp.com/
 
