@@ -1,6 +1,6 @@
-# Demo: https://safe-savannah-43634.herokuapp.com/
+# Contact List Management System React JS with Laravel
 
-# Single Page Application ReactJS with Laravel
+# Demo: https://safe-savannah-43634.herokuapp.com/
 
 if you're cloning for the first
 time, to ensure you download including laravel api use:
