@@ -13,8 +13,6 @@ import {
 import { SubmissionError } from 'redux-form';
 import axios from 'axios';
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
-//import {client} from './';
-//const url = '/api/contacts';
 
 export function getContacts() {
   return function(dispatch) {
