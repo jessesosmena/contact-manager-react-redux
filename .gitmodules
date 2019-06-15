@@ -1,3 +1,6 @@
 [submodule "api-laravel"]
 	path = api-laravel
 	url = https://github.com/jessejayjustin/api-laravel.git
+[submodule "contact-manager-api"]
+	path = contact-manager-api
+	url = https://github.com/jessejayjustin/contact-manager-api
