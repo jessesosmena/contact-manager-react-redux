@@ -19,7 +19,7 @@
     "ie 10"
   ],
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "bootstrap": "^3.3.7",
     "classnames": "^2.2.5",
     "expect": "^22.4.3",
